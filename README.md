@@ -57,6 +57,4 @@ Refactor the code and improve maintainability
 
 👨‍💻 Author
 
-Your Name
-
 SHAHZAIB ASLAM
