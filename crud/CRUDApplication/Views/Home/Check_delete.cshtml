@@ -1,0 +1,20 @@
+﻿@model Cruddata
+
+@{
+    ViewData["Title"] = "Confirmation";
+}
+<div class="container-flui">
+    <h2 class="text-danger">Would you like to delete your data </h2>
+    <h3>Name : <sapn class="text-center">@Model.Name</sapn></h3>
+    <h3>Email : <span class="text-center">@Model.Email</span></h3>
+    <h3>Address : <span class="text-center">@Model.Address</span></h3>
+    <h3>Number : <span class="text-center">@Model.Number</span></h3>
+    <h3>City : <sapn class="text-center">@Model.City</sapn></h3>
+    <h3>Province : <sapn class="text-center">@Model.Province</sapn></h3>
+
+</div>
+
+<div class="">
+    <a class="btn btn-danger" asp-action="delete" asp-route-id="@Model?.Id">Delete</a>
+    <a class="btn btn-warning" asp-action="Showdata">Back to List</a>
+</div>

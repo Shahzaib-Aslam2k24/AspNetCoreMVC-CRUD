@@ -57,4 +57,4 @@ Refactor the code and improve maintainability
 
 👨‍💻 Author
 
-<b>SHAHZAIB ASLAM<b>
+<b>SHAHZAIB<b>
