@@ -1,3 +1,5 @@
+using Microsoft.AspNetCore.Mvc;
+
 namespace CRUDApplication
 {
     public class Program
@@ -29,6 +31,12 @@ namespace CRUDApplication
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}")
                 .WithStaticAssets();
+
+            //app.MapControllerRoute(
+            //    name: "Fordatashow",
+            //    pattern :"All_Student_data",
+            //    defaults : new {controller = "Home" , action="Showdata"}
+            //    );
 
             app.Run();
         }

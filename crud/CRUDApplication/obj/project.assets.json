@@ -778,11 +778,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Asp.netCore\\CRUD\\CRUDApplication\\CRUDApplication.csproj",
+      "projectUniqueName": "E:\\gitpro\\crud\\CRUDApplication\\CRUDApplication.csproj",
       "projectName": "CRUDApplication",
-      "projectPath": "E:\\Asp.netCore\\CRUD\\CRUDApplication\\CRUDApplication.csproj",
+      "projectPath": "E:\\gitpro\\crud\\CRUDApplication\\CRUDApplication.csproj",
       "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "E:\\Asp.netCore\\CRUD\\CRUDApplication\\obj\\",
+      "outputPath": "E:\\gitpro\\crud\\CRUDApplication\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

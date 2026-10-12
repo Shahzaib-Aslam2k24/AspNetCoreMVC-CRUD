@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "P3GJPSNNwa0=",
+  "dgSpecHash": "us1BrEOCjjA=",
   "success": true,
-  "projectFilePath": "E:\\Asp.netCore\\CRUD\\CRUDApplication\\CRUDApplication.csproj",
+  "projectFilePath": "E:\\gitpro\\crud\\CRUDApplication\\CRUDApplication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.bcl.cryptography\\9.0.18\\microsoft.bcl.cryptography.9.0.18.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.data.sqlclient\\7.1.1\\microsoft.data.sqlclient.7.1.1.nupkg.sha512",

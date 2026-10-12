@@ -21,16 +21,19 @@ namespace CRUDApplication.Controllers
             else
             {
                 return View("Index");
-            }   
-        
+            }
+
         }
 
+        [Route("All_Student_data",Name ="All_student")]
         public IActionResult Showdata()
         {
             Cruddata obj = new Cruddata();
             var dataTable = obj.Showdata();
             return View(dataTable);
         }
+
+        [Route("Change_data/{id}",Name ="Changedata")]
         public IActionResult getdata_form(int id)
         {
             Cruddata obj = new Cruddata();
@@ -49,19 +52,22 @@ namespace CRUDApplication.Controllers
                 return View("getdata_form", obj);
             }
         }
+
+        [Route("Student_details/{id}",Name ="details")]
         public IActionResult Details(int id)
         {
             Cruddata obj = new Cruddata();
             obj.getdata(id);
             return View(obj);
         }
-
+        [Route("Confirm_delete_student/{id}",Name="confirm_delete")]
         public IActionResult Check_delete(int id)
         {
             Cruddata obj = new Cruddata();
             obj.getdata(id);
             return View(obj);
         }
+        [Route("Delete_Studdent{id}",Name ="delete_student")]
         public IActionResult delete(int id)
         {
             Cruddata obj = new Cruddata();

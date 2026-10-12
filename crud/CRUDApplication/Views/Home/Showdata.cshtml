@@ -34,13 +34,13 @@
                     <td class="text-center">@row["City"]</td>
                     <td class="text-center">@row["Province"]</td>
                     <td>
-                        <a asp-controller="home" asp-action="getdata_form" asp-route-id="@row["Id"]" class="btn btn-primary">Edit</a>
+                        <a asp-route="Changedata" asp-route-id ="@row["id"]" class="btn btn-primary">Edit</a>
                     </td>
                     <td>
-                        <a asp-action="Check_delete" asp-route-id="@row["id"]" class="btn btn-danger">Delete</a>
+                        <a asp-route="confirm_delete" asp-route-id="@row["id"]" class="btn btn-danger">Delete</a>
                     </td>
                     <td>
-                        <a asp-controller="home" asp-action="Details"  class="btn btn-warning" asp-route-id="@row["id"]">Details</a>
+                        <a asp-route="details" class="btn btn-warning" asp-route-id="@row["id"]">Details</a>
                     </td>
                     
                 </tr>
